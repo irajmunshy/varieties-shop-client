@@ -1,0 +1,68 @@
+.login-method form, .logOut {
+    border-top: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+    border-left: 1px solid #F6F6F6;
+    border-right: 1px solid #F6F6F6;
+    padding: 15px 30px;
+}
+.logOut {
+    margin-top: 80px;
+}
+.logOut button {
+    margin-top: 10px;
+}
+.login-method input {
+    border: none;
+    border-bottom: 1px solid #F6F6F6;
+}
+.login-method input:hover {
+    border-bottom: 1px solid #BEBEBE;
+}
+.login-method input[type="submit"], .logOut button, .search-btn {
+    color: #fff;
+    background: #71BA58;
+    border: 1px solid #BEBEBE;
+    transition: all .3s;
+}
+.login-method input[type="submit"]:hover, .logOut button:hover, .search-btn:hover {
+    color: #71BA58;
+    background: none;
+}
+.login-method p {
+    text-align: center;
+    padding-top: 15px;
+}
+.login-method span {
+    color: #71BA58;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.brand-login button {
+    position: relative;
+    margin-top: 80px;
+    border: 1px solid #BEBEBE;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 18px;
+}
+.brand-login span {
+    color: #4285F4;
+}
+.brand-login button::before {
+    content: 'Or';
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 5px;
+}
+.brand-login button::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #BEBEBE;
+    width: 100%;
+    top: -37px;
+    left: 0;
+    z-index: 0;
+}

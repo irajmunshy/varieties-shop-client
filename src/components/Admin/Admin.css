@@ -1,0 +1,117 @@
+.main-components {
+    margin: 0;
+    padding: 0;
+}
+.sideBar {
+    background: #203D37;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+.sideBar svg {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.Btn {
+    cursor: pointer;
+    padding: 5px 0;
+    transition: all .3s;
+}
+.Btn:hover, .active {
+    background: #2D524A;
+}
+.sideBar h3 {
+    padding-top: 30px;
+    color: #fff;
+}
+.main-content {
+    height: 100vh;
+    background: #F4FCFB;
+}
+.main-content h4 {
+    background: lightgray;
+    margin: 0 -12px;
+    color: #fff;
+    padding: 15px 0 15px 40px;
+}
+.addProduct, .manageProduct, .updateProduct {
+    background: #fff;
+    margin: 30px 40px 0 20px;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px 0px grey;
+}
+.submit {
+    display: block;
+    margin: 0 40px 0 auto;
+    padding: 7px 36px;
+    background: #71BA58;
+    color: #fff;
+    border: 1px solid #71BA58;
+    border-radius: 6px;
+    transition: all .3s;
+}
+.submit:hover {
+    background: none;
+    color: #71BA58;
+}
+.left-input {
+    width: 48%;
+}
+.right-input {
+    width: 48%;
+}
+.manageProduct .tableHead {
+    background: #F5F6FA;
+    border-radius: 6px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.manageProduct .products-details {
+    overflow-y: scroll;
+    height: 70vh;
+}
+.manageProduct .tableBody {
+    padding: 15px 30px 0;
+    display: flex;
+    text-align: center;
+}
+.manageProduct .icon {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.manageProduct .icon div:first-child {
+    background: #3BC83B;
+    padding: 1px 3px;
+    border-radius: 3px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.manageProduct .icon div:last-child {
+    background: #FF4E54;
+    padding: 1px 3px;
+    border-radius: 3px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+#Four {
+    margin-right: 15px;
+}
+.one, .two, .three {
+    text-align: left;
+}
+.one {
+    width: 45%;   
+}
+.two {
+    width: 30%; 
+}
+.three {
+    width: 20%;  
+}
+.four {
+    width: 5%;
+}
